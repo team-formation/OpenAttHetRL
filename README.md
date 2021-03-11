@@ -16,3 +16,11 @@ This repository provides a standard training and testing framework for learning 
 
 
 #### Example
+
+ ```
+#e.g.1 data preprocessing
+# import the class
+from  OpenAttHetRL.preprocessing import  datapreprocessing 
+# run preprocessing by passing the location and dataset
+datapreprocessing.createdata("./data/","android") 
+ ```
