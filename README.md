@@ -16,7 +16,7 @@ This repository provides a standard training and testing framework for learning 
 
 
 #### Examples
-##### e.g.1 data preprocessing
+##### e.g. 1 data preprocessing
  ```python
 # import the class
 from  OpenAttHetRL.preprocessing import  datapreprocessing 
@@ -30,7 +30,7 @@ from  OpenAttHetRL.framework import  AttHetRL
 #generate train and test data for expert finding 
 AttHetRL.prepare_train_test("data/android")
 ```
- ##### e.g.2 model training
+ ##### e.g. 3 model training
  ```python
 # AttHetRL class to run the framework
 from  OpenAttHetRL.framework import  AttHetRL
@@ -50,7 +50,7 @@ AttHetRL.saveModel("data/android/parsed/model/","model",model)
 loadedModle=AttHetRL.loadModel("data/android/parsed/model/","model") 
  ```
  
- ##### e.g.3 perform expert finding 
+ ##### e.g. 4 perform expert finding 
  ```python
 # AttHetRL class to run the framework
 from  OpenAttHetRL.framework import  AttHetRL
