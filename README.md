@@ -1,6 +1,6 @@
 # OpenAttHetRL: An open source toolkit for End-to-end learning of attributed heterogeneous networks
 
-This repository provides a standard training and testing framework for learning the latent reperesntaions of attributed heterogeneous networks in an end-to-end way. 
+This repository provides a standard training and testing framework for learning the latent representations of attributed heterogeneous networks in an end-to-end way.
 
 ## Usage
 
@@ -23,6 +23,13 @@ from  OpenAttHetRL.preprocessing import  datapreprocessing
 # run preprocessing by passing the location and dataset
 datapreprocessing.createdata("./data/","android") 
  ```
+ ##### e.g. 2 generate train and test data for expert finding task
+```python 
+ # AttHetRL class to run the framework
+from  OpenAttHetRL.framework import  AttHetRL
+#generate train and test data for expert finding 
+AttHetRL.prepare_train_test("data/android")
+```
  ##### e.g.2 model training
  ```python
 # AttHetRL class to run the framework
