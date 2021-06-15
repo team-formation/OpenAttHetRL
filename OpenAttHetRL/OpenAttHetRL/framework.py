@@ -1054,7 +1054,7 @@ class AttHetRL:
         plt.ylabel('loss')
         plt.legend(loc="upper right")
         plt.savefig(outdir_model+ "/loss.png")
-        plt.show()
+        #plt.show()
     
         
     def saveembedings(self):  
