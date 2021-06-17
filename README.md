@@ -14,6 +14,8 @@ This repository provides a standard training and testing framework for learning 
     pip install OpenAttHetRL
     ```
 
+#### Demo
+The demonstration of the usage of \texttt{OpenAttHetRL} in expert finding and questions routing as an essential application on network data is available at \url{https://bit.ly/2SFbcHL}.
 
 #### Examples
 ##### e.g. 1 data preprocessing
